@@ -1,9 +1,12 @@
 {
-  "name": "puppeteer-cluster",
+  "name": "@scoutgg/puppeteer-cluster",
   "version": "0.23.0",
   "description": "Cluster management for puppeteer",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "build": "tsc",
     "test": "jest",
@@ -13,9 +16,9 @@
   "author": "Thomas Dondorf",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thomasdondorf/puppeteer-cluster.git"
+    "url": "https://github.com/scoutgg/puppeteer-cluster.git"
   },
-  "homepage": "https://github.com/thomasdondorf/puppeteer-cluster",
+  "homepage": "https://github.com/scoutgg/puppeteer-cluster",
   "keywords": [
     "puppeteer",
     "cluster",
